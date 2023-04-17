@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "svelte": ["./node_modules/svelte/types/runtime/index.d.ts"],
+      "svelte/motion": ["./node_modules/svelte/types/runtime/motion/index.d.ts"],
+      "svelte/store": ["./node_modules/svelte/types/runtime/store/index.d.ts"]
+    },
+    "declaration": true,
+    "outDir": "dist",
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "node_modules/@sveadmin/**/*.ts",
+    "node_modules/@sveadmin/**/*.svelte",
+  ],
+  "typeRoots": [
+    "node_modules/@types",
+    "node_modules/svelte/**/*.d.ts",
+    "node_modules/@sveadmin/**/*.d.ts",
+  ]
+}
