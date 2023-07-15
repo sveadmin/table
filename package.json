@@ -1,7 +1,7 @@
 {
   "name": "@sveadmin/table",
-  "version": "0.0.1",
-  "description": "Helper components to dispay dynamic administration pages with Svelte",
+  "version": "0.1.0",
+  "description": "Svelte admin table component to display structured data",
   "keywords": [
     "svelte",
     "admin",
@@ -10,6 +10,10 @@
   ],
   "engines": {
     "node": ">= 16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sveadmin/table.git"
   },
   "type": "module",
   "files": [
